@@ -9,7 +9,7 @@ import Dropdown from './Partial/Dropdown'
 import Loading from './Partial/Loading'
 
 const PersonDetails = () => {
-  document.title = "SCSDB | Person Details";
+  document.title = "AshDB | Person Details";
 
   const { pathname } = useLocation();
   const navigate = useNavigate();

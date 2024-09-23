@@ -8,7 +8,7 @@ import Cards from './Partial/Cards';
 import Dropdown from './Partial/Dropdown';
 
 const TvShows = () => {
-  document.title = "SCSDB | Tv Shows";
+  document.title = "AshDB | Tv Shows";
 
   const navigate = useNavigate();
   const [category, setcategory] = useState("airing_today");

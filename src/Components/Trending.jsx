@@ -8,7 +8,7 @@ import axios from "../Utils/Axios";
 import { useNavigate } from "react-router-dom";
 
 const Trending = () => {
-  document.title = "SCSDB | Trending";
+  document.title = "AshDB | Trending";
   const navigate = useNavigate();
   const [category, setcategory] = useState("all");
   const [duration, setduration] = useState("day");

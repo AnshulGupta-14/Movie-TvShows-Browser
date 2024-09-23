@@ -7,7 +7,7 @@ import HorizontalCards from './Partial/HorizontalCards'
 import Loading from './Partial/Loading'
 
 const MovieDetails = () => {
-  document.title = "SCSDB | Movie Details";
+  document.title = "AshDB | Movie Details";
 
   const { pathname } = useLocation();
   const navigate = useNavigate();

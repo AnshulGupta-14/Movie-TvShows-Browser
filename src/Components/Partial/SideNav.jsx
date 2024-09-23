@@ -7,7 +7,7 @@ const SideNav = () => {
     <div className="w-[20%] h-full border-r-[1px] border-zinc-500 px-10 py-10">
       <div className="flex items-center gap-3">
         <i className="text-[#6556CD] text-3xl ri-tv-fill"></i>
-        <h1 className="font-bold text-2xl">SCSDB</h1>
+        <h1 className="font-bold text-2xl">AshDB</h1>
       </div>
       <nav className="mt-10 flex flex-col gap-3 text-zinc-400">
         <h1 className="font-semibold text-xl mb-5">New Feeds</h1>

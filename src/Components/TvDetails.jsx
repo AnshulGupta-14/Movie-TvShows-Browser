@@ -7,7 +7,7 @@ import Loading from './Partial/Loading'
 import noimage from '/noimage.webp'
 
 const TvDetails = () => {
-  document.title = "SCSDB | Tv Show Details";
+  document.title = "AshDB | Tv Show Details";
   const { pathname } = useLocation();
   const navigate = useNavigate();
   const { id } = useParams();

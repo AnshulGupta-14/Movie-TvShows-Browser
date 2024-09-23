@@ -9,7 +9,7 @@ import Dropdown from './Partial/Dropdown'
 import Loading from './Partial/Loading'
 
 const Popular = () => {
-  document.title = "SCSDB | Popular";
+  document.title = "AshDB | Popular";
 
   const navigate = useNavigate();
   const [category, setcategory] = useState("tv");

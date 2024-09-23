@@ -9,7 +9,7 @@ import Loading from './Partial/Loading'
 
 
 const Home = () => {
-  document.title = "SCSDB | Homepage";
+  document.title = "AshDB | Homepage";
   const [wallpaper, setwallpaper] = useState(null);
   const [trending, settrending] = useState(null);
   const [category, setcategory] = useState("all");
