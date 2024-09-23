@@ -45,7 +45,7 @@ const Trending = () => {
 
   useEffect(() => {
     refershHandler();
-  }, [category]);
+  }, [category,duration]);
 
   return trending.length > 0 ? (
     <div className="w-screen pt-5 min-h-screen ">
