@@ -65,6 +65,11 @@ const Trending = () => {
               options={["all", "movie", "tv"]}
               func={(e) => setcategory(e.target.value)}
             ></Dropdown>
+            <Dropdown
+              title={"Duration"}
+              options={["day", "week"]}
+              func={(e) => setcategory(e.target.value)}
+            ></Dropdown>
           </div>
         </div>
       </div>
