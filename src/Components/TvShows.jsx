@@ -60,6 +60,7 @@ const TvShows = () => {
             title="Category"
             options={["airing_today", "on_the_air", "top_rated", "popular"]}
             func={(e) => setcategory(e.target.value)}
+            value={category}
           ></Dropdown>
         </div>
       </div>

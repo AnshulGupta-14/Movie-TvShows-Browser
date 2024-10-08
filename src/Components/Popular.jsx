@@ -61,6 +61,7 @@ const Popular = () => {
             title="Catgory"
             options={["tv", "movie"]}
             func={(e) => setcategory(e.target.value)}
+            value={category}
           />
         </div>
       </div>

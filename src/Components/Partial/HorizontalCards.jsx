@@ -2,13 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import noimage from "/noimage.webp";
 
-const HorizontalCards = ({data}) => {
+const HorizontalCards = ({ data }) => {
   return (
     <div className="w-[100%] flex  overflow-y-hidden mb-2 p-5">
       {data.length > 0 ? (
         data.map((d, i) => (
           <Link
-            to={`/${d.media_type || title}/details/${d.id}`}
+            to={`/${d.media_type || d.title}/details/${d.id}`}
             key={i}
             className="min-w-[25%] h-[40vh]  bg-zinc-900 mr-5"
           >
