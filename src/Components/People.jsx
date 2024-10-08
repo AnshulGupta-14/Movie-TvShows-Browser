@@ -8,7 +8,7 @@ import Cards from './Partial/Cards'
 import Loading from './Partial/Loading'
 
 const People = () => {
-  document.title = "AshDB | person Shows";
+  document.title = "AshDB | Person";
 
   const navigate = useNavigate();
   const [category, setcategory] = useState("popular");
